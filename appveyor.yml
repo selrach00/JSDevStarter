@@ -1,4 +1,4 @@
-# Test against this version of NOde.js
+# Test against this version of Node.js
 environment:
   matrix:
   # node.js
@@ -10,7 +10,7 @@ install:
   - ps: Install-Product node $env:nodejs_version
   # install modules
   - npm install
-  
+
   # Post-install test scripts.
 test_script:
   # Output useful info for debugging.
