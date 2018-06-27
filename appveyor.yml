@@ -10,8 +10,8 @@ install:
   - ps: Install-Product node $env:nodejs_version
   # install modules
   - npm install
-
-# Post-install test scripts.
+  
+  # Post-install test scripts.
 test_script:
   # Output useful info for debugging.
   - node --version
